@@ -27,22 +27,19 @@ class LoginPage extends StatelessWidget {
             ),
 
             // login image
-            const Icon(Icons.lock, size: 40,),
+            const Icon(Icons.lock, size: 60,),
+
+            const SizedBox(
+              height: 20,
+            ),
+            
+            const Text("Do what you like !", style: TextStyle(fontSize: 30, fontWeight: FontWeight.w200),),
+
 
             const SizedBox(
               height: 20,
             ),
 
-            //welcome back
-            // const Text(
-            //   "Lend a paw, Gain a friend",
-            //   style: TextStyle(fontSize: 20, color: Colors.grey),
-            // ),
-            Image.asset('lib/images/slogon.png', height: 25,),
-
-            const SizedBox(
-              height: 20,
-            ),
 
             //user name text field
             MyTextField(
